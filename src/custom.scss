@@ -1,0 +1,46 @@
+// importing Bootstrap's functions and variables
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+
+// defining custom colors
+$primary : #fcba04;
+$secondary: #083d77;
+$Tertiary: #f3f3f3;
+$pinky:#ffcdb2;
+$darkpinky:#ff758f;
+
+$success: #008000;
+$light: #efd6ac;
+$dark: #0b090a;
+$fadeddark: #161a1d;
+$paper:#f8f7ff;
+
+$warning:#e85d04;
+$danger:#d00000;
+$darkgray: #6b705c;
+$grey: #a5a58d;
+$lightgrey:#ccd5ae;
+$info:#c0c0c0;
+
+//update Bootstrap's variales with custom colors
+$theme-colors: (
+"primary":$primary,
+"secondary":$secondary,
+"Tertiary": $Tertiary,
+"pinky":$pinky,
+"darkpinky":$darkpinky,
+"success": $success,
+"light": $light,
+"dark": $dark,
+"fadeddark": $fadeddark,
+"paper":$paper,
+"warning":$warning,
+"danger":$danger,
+"darkgray": $darkgray,
+"grey": $grey,
+"lightgrey":$lightgrey,
+"info":$info
+);
+
+//Import Bootstraps main styles
+@import 'bootstrap/scss/bootstrap'
